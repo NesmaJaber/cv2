@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'driod';
+    src: url(fonts/Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf);
+}
+body{
+    background-color: #dfdddd;
+    
+}
+.logo{
+    padding: 10px 40px;
+}
+.body{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'driod';
+}
+.cv-div{
+    background-color: #fff;
+    border-radius: 25px;
+    width: 65%;
+    margin-bottom: 20px;
+   
+}
+.header{
+    background-color: #eee;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    min-height: 160px;
+    width: 100%;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.header .imgdiv{
+    width: 40%;
+    text-align: center;
+}
+.header .information{
+    width: 60%;
+}
+
+.header .imgdiv img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid #b88a55;
+}
+.header .information h1{
+    color:#b88a55;
+    font-weight: bold;
+    font-size: 40px;
+}
+.header .information p{
+    color:#414141;
+    font-size: 20px;
+ 
+}
+.content{
+    display: flex;
+}
+.rightside{
+    width: 40%;
+   padding: 20px;
+}
+.col-div{
+    background-color: #eee;
+    margin: 20px;
+    padding: 20px 0px;
+}
+.title{
+    width: 70%;
+    margin-right: -20px;
+    background-color: #b88a55;
+    text-align: center;
+    color: #fff;
+    padding: 3px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.des{
+    padding: 20px;
+}
+.des p{
+    font-size: 12px;
+}
+.info-divs{
+    padding: 20px;
+
+}
+.info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+  
+}
+.leftside{
+    width: 60%;
+    padding: 20px;
+}
+
+.div-skills{
+    padding: 20px 40px;
+}
+ul li{
+    list-style: circle;
+    font-size: 14px;
+}
+.education-div ,.exp-div{
+    position: relative;
+    border-right: 2px solid #b88a55;
+    padding: 20px;
+}
+
+.education-div::before,
+.exp-div::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #b88a55;
+    top: 0;
+    right: -8px;
+}
+.title-left{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.languages ul{
+    padding:0px 20px;
+}
